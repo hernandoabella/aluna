@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Agbalumo&family=Comfortaa:wght@300;400;500;600;700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 1.2rem;
+    font-family: 'Nunito', sans-serif;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Comfortaa';
+}
+
+header h1 {
+    text-align: center;
+    padding: 20px;
+}
+
+header p {
+    padding: 20px;
+}
+
+.books {
+    padding: 20px;
+}
+
+.books img {
+    width: 250px;
+}
+
+.books h2 {
+    padding: 10px 0px;
+}
+
+.books h3 {
+    padding: 10px 0px;
+}
+
+.books h4 {
+    padding: 10px 0px;
+}
+
+.book-info {
+    padding: 20px;
+}
+
+.buy-button {
+    background: #FFA41C;
+    border-radius: 20px;
+    color: #000;
+    padding: 2px;
+    margin: 10px 0px;
+    display: block;
+    width: 100px;
+    text-align: center;
+}
+
+.price {
+    color: #B12704;
+    margin: 10px 0px;
+}
+
+.stars {
+    color: #FFA41C;
+    margin: 20px 0px;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 20px 0px;
+}
+
+.mission {
+    padding: 20px;
+}
+
+.mission img {
+    width: 400px;
+}
+
+.mission h2{
+    padding: 20px 0px;
+}
+
+.paperback {
+    margin: 20px 0px;
+}
+
+.testimonials {
+    padding: 20px;
+}
+
+.testimonials h2 {
+    padding: 20px 0px;
+}
+
+.testimonial-card {
+    border: 1px solid #bfbebe;
+    padding: 10px;
+    border-radius: 20px;
+    margin: 20px 0px;
+    box-shadow: 10px 10px 10px #d2d2d2;
+}
+
+footer {
+    padding: 20px;
+}
+
+footer div {
+    margin: 20px 0px;
+}
+
+.rights {
+    text-align: center;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+.prev, .next {
+    padding: 10px;
+    background: #e3e3e3;
+    cursor: pointer;
+}
+
+.test-top {
+    display: flex;
+    align-items: center; 
+    gap: 10px;
+}

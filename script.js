@@ -1,6 +1,11 @@
 let slideIndex = 1;
 showSlides(slideIndex);
 
+// Call the `plusSlides` function with an argument of 1 to move to the next slide every 3 seconds
+setInterval(function () {
+  plusSlides(1);
+}, 5000);
+
 function plusSlides(n) {
   showSlides((slideIndex += n));
 }

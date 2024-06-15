@@ -1,4 +1,4 @@
-# aluna
+# Aluna Publishing House
 
 
-books
+Book Store
